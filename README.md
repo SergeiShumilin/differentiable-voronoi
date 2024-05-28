@@ -37,6 +37,7 @@ differentiable_voronoi(torch.tensor(coords, dtype=torch.float),
 We want to minimize the variance of the Voronoi regions' areas. 
 To do this, we construct a standard PyTorch training loop:
 
+
 ```
 def train(point_cloud, boundary, clamp_min=0, clamp_max=1., n_epochs=100):
     coords = torch.tensor(point_cloud, requires_grad=True)
