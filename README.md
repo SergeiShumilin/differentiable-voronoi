@@ -6,6 +6,11 @@ End-to-end differentiation of geometrical construction of the Voronoi tessellati
 
 <img src="differentiable_voronoi/example/diffvoronoifast.gif" width="1000" height="440">
 
+Install:
+```
+pip install differentiable_voronoi
+from differentiable_voronoi import differentiable_voronoi
+```
 
 **Step-by-step usage:**
 
