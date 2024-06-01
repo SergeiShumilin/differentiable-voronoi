@@ -1,1 +1,1 @@
-from .differentiable_voronoi import differentiable_voronoi
+from .differentiable_voronoi import differentiable_voronoi, triangulate

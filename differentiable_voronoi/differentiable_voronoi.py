@@ -419,7 +419,7 @@ def draw_voronoi_region(coords, line, vertex, ax, color='g'):
     ax.add_patch(p)
 
 
-def differentiable_voronoi(coords, mesh, boundary=None, vizualize=True):
+def differentiable_voronoi(coords, mesh, boundary=None, vizualize=False):
     vertex_faces_dict = {}
     for i, row in enumerate(mesh.vertex_faces):
         vertex_faces_dict[i] = [face for face in row if face != -1]
